@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tap Duel</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>⚡ TAP DUEL ⚡</h1>
+
+<div id="joinBox">
+
+<input
+type="text"
+id="playerName"
+placeholder="Enter your name">
+
+<br><br>
+
+<button id="joinBtn">
+JOIN GAME
+</button>
+
+</div>
+
+<div id="gameBox" style="display:none;">
+
+<h2 id="playerInfo"></h2>
+
+<h2 id="status">
+Waiting...
+</h2>
+
+<h1 id="countdown"></h1>
+
+<button
+id="tapBtn"
+disabled>
+TAP
+</button>
+
+<h2 id="reaction"></h2>
+
+<h2 id="result"></h2>
+
+<button
+id="playAgain"
+style="display:none;">
+Play Again
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
