@@ -3,9 +3,6 @@
 ⚡ Tap Duel - Real-Time Multiplayer Web Game
 Tap Duel is a real-time multiplayer reflex game where two players compete to tap the screen first after the "GO!" signal appears. The game uses Socket.io for instant communication, making gameplay smooth and synchronized across devices.
 
-🚀 Live Demo
-https://tap-duel-game-1.onrender.com/
-
 📌 Features
 Real-time multiplayer gameplay
 Player name entry
